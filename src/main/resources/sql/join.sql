@@ -33,7 +33,7 @@ VALUES
     ('Nicholas Kim', 'nicholaskim@example.com'),
     ('Megan Davis', 'megandavis@example.com');
 
-CREATE TABLE orders (
+CREATE TABLE Orders (
     id INT NOT NULL AUTO_INCREMENT,
     customer_id INT NOT NULL,
     item_id INT NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE orders (
     PRIMARY KEY (id)
 );
 
-INSERT INTO orders (customer_id, item_id, order_date) VALUES
+INSERT INTO Orders (customer_id, item_id, order_date) VALUES
     (1, 2, '2023-05-01'),
     (2, 3, '2023-04-30'),
     (3, 4, '2023-04-28'),
